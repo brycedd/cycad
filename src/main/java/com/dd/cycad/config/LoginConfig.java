@@ -1,6 +1,6 @@
 package com.dd.cycad.config;
 
-import com.dd.cycad.intercep.LoginInterceptor;
+import com.dd.cycad.interceptor.LoginInterceptor;
 import jakarta.annotation.Resource;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

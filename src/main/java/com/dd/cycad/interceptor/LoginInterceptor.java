@@ -1,4 +1,4 @@
-package com.dd.cycad.intercep;
+package com.dd.cycad.interceptor;
 
 import com.alibaba.fastjson.JSON;
 import com.dd.cycad.cache.SimpleCache;
