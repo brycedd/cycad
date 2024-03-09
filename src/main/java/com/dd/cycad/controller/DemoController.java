@@ -17,7 +17,7 @@ public class DemoController {
     @GetMapping("/dd")
     public String demo() {
         User user = HttpUtil.getUser();
-        String userName = user == null ? "world" : user.getUserName();
+        String userName = user == null ? "world" : user.getName();
         return "hello " + userName + "!";
     }
 }
