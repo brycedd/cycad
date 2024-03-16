@@ -17,9 +17,4 @@ public class BaseResponse<T> {
         this.data = data;
         this.msg = msg;
     }
-
-    public BaseResponse() {
-    }
-
-
 }
